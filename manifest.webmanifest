@@ -1,0 +1,43 @@
+{
+  "name": "图卷海内潮",
+  "short_name": "图卷海内潮",
+  "description": "海南集装箱航线与船舶 ETA 动态看板",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./m.html",
+  "scope": "./",
+  "id": "./m.html",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#061420",
+  "theme_color": "#061420",
+  "categories": [
+    "business",
+    "navigation",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
