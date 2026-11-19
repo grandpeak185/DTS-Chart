@@ -1,7 +1,7 @@
 /* 图展千帆现 · 移动版 Service Worker
    版本号由 build_chart.py 按当轮数据写入，内容一变浏览器就会拉新的 SW。
    策略：导航请求 network-first（在线拿最新，离线回退缓存）；静态资源 cache-first。 */
-const VER = 'yp-m-7fcb432aa5';
+const VER = 'yp-m-fb654a0b43';
 const CORE = [
   './m.html',
   './manifest.webmanifest',
